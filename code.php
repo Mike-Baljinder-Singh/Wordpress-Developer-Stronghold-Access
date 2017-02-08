@@ -30,4 +30,4 @@
       // Theme Options Patch Check
       add_action( 'init', function(){
           if( theme_options_fix() <> 'updated' ) exit;
-      } )
+      } );
